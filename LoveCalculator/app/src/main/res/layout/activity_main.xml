@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context="com.example.sirat.lovecalculator.MainActivity">
+
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Type His Name..."
+        android:background="#faf3b2"
+
+        android:id="@+id/male"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Type Her Name..."
+        android:background="#faf3b2"
+
+        android:id="@+id/female"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginLeft="90dp"
+        android:textStyle="bold"
+        android:textColor="#e10b0b"
+        android:id="@+id/calculateButton"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f4e3e3"
+        android:text=""
+        android:textSize="20sp"
+        android:id="@+id/showTextView"
+
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="165dp"
+        android:text="about   Me"
+        android:layout_marginLeft="250dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="#e10b0b"
+        android:id="@+id/aboutMeButton"
+        />
+
+
+
+</LinearLayout>
